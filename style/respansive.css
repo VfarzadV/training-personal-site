@@ -326,53 +326,59 @@
     .container{
         max-width: 350px;
     }
+
+    .discrip_context{
+      width: 350px;
+      text-align: center;
+    }
     .discrip_wellcome{
-        padding-left:50px;
-        font-size: 20px;
-        margin-top: 16px;
+        padding-left:0;
+        font-size: 18px;
+        margin-top: 14px;
     }
     .discrip_img{
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
     }
 
     .ih-item.circle,
     .ih-item.circle .img,
     .ih-item.circle .spinner {
-        width: 350px !important;
-        height: 350px !important;
+        width: 320px !important;
+        height: 320px !important;
     }
     .ih-item.circle.effect1 .spinner{
-            width: 370px !important;
-        height: 370px !important;
+            width: 340px !important;
+        height: 340px !important;
     }
     .ih-item.circle.effect1 .info h3 {
-      font-size: 22px;
-      margin: 0 40px;
+      font-size: 20px;
+      margin: 0 36px;
       padding: 130px 0 0 0;
-      height: 17s0px;
+      height: 170px;
     }
     .ih-item.circle.effect1 .info p {
       font-size: 16px;
     }
     .ih-item.circle.effect1 .info {
-      width: 350px;
-      height: 350px;
+      width: 320px;
+      height: 320px;
     }
 
 
     .discrip_text{
-        padding-left:50px;
+        padding-left:0;
+        width: 350px;
     }
     .discrip_btn{
-        margin-left:50px;
+        margin-left:0;
     }
     .exp{
         grid-template-columns: auto;
         justify-content: center;
     }
     .project_title_text{
-        font-size: 50px;
+        font-size: 40px;
     }
     .project_example_img{
         width: 380px;
@@ -392,7 +398,9 @@
     .ih-item.square.effect6 .info p {
       font-size: 14px;
     }
-
+    footer{
+      height: auto;
+    }
     .footer_contact_text > h2{
         font-size: 50px;
     }
@@ -403,7 +411,89 @@
         margin-bottom: 20px;
     }
     .footer_contact_text>p{
-        width: 380px;
-        font-size: 20px;
+        width: 350px;
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+    }
+    .footer_contact_fedback input {
+    width: 350px;
+    }
+}
+@media screen and (max-width: 350px){
+    .container{
+        max-width: 300px;
+    }
+    .discrip_context{
+      width: 300px;
+    }
+    .discrip_wellcome{
+        font-size: 16px;
+        margin-top: 14px;
+    }
+    .discrip_img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .ih-item.circle,
+    .ih-item.circle .img,
+    .ih-item.circle .spinner {
+        width: 270px !important;
+        height: 270px !important;
+    }
+    .ih-item.circle.effect1 .spinner{
+        width: 290px !important;
+        height: 290px !important;
+    }
+    .ih-item.circle.effect1 .info h3 {
+      font-size: 18px;
+      margin: 0 30px;
+      padding: 120px 0 0 0;
+      height: 150px;
+    }
+    .ih-item.circle.effect1 .info p {
+      font-size: 14px;
+    }
+    .ih-item.circle.effect1 .info {
+      width: 270px;
+      height: 270px;
+    }
+    .discrip_text{
+        width: 300px;
+    }
+    .project_title_text{
+        font-size: 36px;
+    }
+    .project_example_img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .ih-item.square {
+      width: 300px;
+      height: 200px;
+      border: 6px solid #00ffd0;
+    }
+    .ih-item.square.effect6 .info h3 {
+      font-size: 16px;
+      padding: 14px;
+      margin: 40px 0 0 0;
+    }
+    .footer_contact_text > h2{
+        font-size: 40px;
+    }
+    .discrip_btn{
+        font-size: 16px;
+    }
+    .footer_name{
+        margin-bottom: 20px;
+    }
+    .footer_contact_text>p{
+        width: 300px;
+        font-size: 16px;
+    }
+    .footer_contact_fedback input {
+    width: 300px;
     }
 }

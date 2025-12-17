@@ -33,7 +33,7 @@ https://vfarzadv.github.io/training-personal-site/
 ## 🎨 UI Preview
 
 <p align="center">
-  <img src="./image/project1" width="700" alt="Personal Website Preview" />
+  <img src="image/project1.png" width="700" alt="Personal Website Preview" />
 </p>
 
 
